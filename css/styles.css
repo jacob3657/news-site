@@ -1,0 +1,62 @@
+body{
+  background-color: var(--light-color);
+}
+html {
+    --primary-color: #c72727;
+    --light-color: #f3f3f3;
+    --dark-color: #333;
+    --link-color: #333;
+
+    --sports-color: #f99500;
+    --arts-color: #a66bbe;
+    --tech-color: #009cff;
+    --science-color: #3bd142;
+    --food-color: #d1483b;
+  }
+  .category-science{
+    background-color: var(--science-color);
+
+  }
+  .category-food{
+    background-color: var(--food-color);
+
+  }
+  .category-arts{
+    background-color: var(--arts-color);
+  }
+  .category-sports{
+    background-color: var(--sports-color);
+
+  }
+  .category-science{
+    background-color: var(--science-color);
+
+  }
+  .category-tech{
+    background-color: var(--tech-color);
+
+  }
+  .category{
+    color: white;
+    text-transform:uppercase;
+    font-size: 9px;
+    padding:4px 8px;
+    border-radius: 10px;
+    
+  }
+
+  img{
+    width: 100%;
+  }
+  .articles{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 16px;
+
+  }
+  .articles article{
+    background-color: white;
+    padding: 16px;
+
+  }
+  
